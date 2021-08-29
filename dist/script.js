@@ -2,7 +2,7 @@
 
 import './style.css'
 import * as THREE from 'https://unpkg.com/three/build/three.module.js'          // Import the entire three.js core library
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
+import { OrbitControls } from 'https://unpkg.com/three/examples/jsm/controls/OrbitControls.js'
 import * as dat from 'dat.gui'          // control panel GUI
 
 // TextureLoader
