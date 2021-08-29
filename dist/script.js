@@ -1,8 +1,8 @@
 // View website by typing in PS C:\Users\huiya\Desktop\3jsProject\threejs-webpack-starter> npm run dev
 
 import './style.css'
-import * as THREE from 'https://cdn.skypack.dev/three'          // Import the entire three.js core library
-import { OrbitControls } from 'https://cdn.skypack.dev/three@<version>/examples/jsm/controls/OrbitControls.js'
+import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js'          // Import the entire three.js core library
+import { OrbitControls } from 'https://unpkg.com/three@0.127.0/examples/jsm/controls/OrbitControls.js'
 import * as dat from 'dat.gui'          // control panel GUI
 
 // TextureLoader
